@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#home {
+  background-image: url(./pics/pexels-narda-yescas-1566837.jpg);
+  background-size: 100% 100%;
+}
+
+.pic2 {
+  position: relative;
+  height: 85%;
+  width: 85%;
+}
+
+/* Navbar */
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav-bar a:hover {
+  background: darkgoldenrod;
+  border-radius: 4px;
+}
+
+#topbar {
+  height: 30px;
+  z-index: 10;
+  font-size: 15px;
+}
+
+#a {
+  border: 3px solid goldenrod;
+  border-radius: 50px;
+}
+#a:hover {
+  background: goldenrod;
+}
+
+.chefpic {
+  height: 90%;
+  width: 90%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.f {
+  height: 70px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.specials {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}

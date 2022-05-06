@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="nav-bar" class="mt-4">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Restaurantly</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-links"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="nav-links"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#menu">Menu</a>
+              <a class="nav-link" href="#specials">Specials</a>
+              <a class="nav-link" href="#events">Events</a>
+              <a class="nav-link" href="#chefs">Chefs</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+
+    <div id="topbar" class="d-flex akign-items-center fixed-top text-light">
+      <div class="px-5"><span>+2765498035</span></div>
+      <div><span>Mon-Sat: 11AM-23PM</span></div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="text-light min-vh-100 d-flex align-items-center">
+      <div class="container">
+        <h1>Heading</h1>
+        <h3>Sub-Heading</h3>
+
+        <div class="buttons pt-3">
+          <a id="a" class="text-decoration-none text-light p-2" href="menu"
+            >OUR MENU</a
+          >
+          <a id="a" class="text-decoration-none text-light p-2" href="menu"
+            >BOOK A TABLE</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-dark text-light min-vh-100">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Heading</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              eius ipsam sapiente doloremque placeat, quisquam, asperiores nemo
+              repudiandae provident facilis corrupti aliquid rerum odio nobis?
+              Enim, esse consequuntur? Voluptas mollitia ad, laborum maxime esse
+              fugiat iure natus veniam animi cumque ipsum sit optio? Repellat
+              nisi incidunt dolorum odit, labore excepturi! Aut maxime,
+              quibusdam maiores adipisci itaque culpa rem distinctio recusandae
+              quae ad ratione laboriosam quasi odit corrupti. Iusto amet
+              similique omnis tempora deleniti a sit quis sunt eos! Voluptate
+              quis unde nemo pariatur deserunt culpa ex optio cumque blanditiis
+              numquam saepe id modi error laudantium, eveniet quos amet veniam.
+              Illum doloribus maxime omnis nulla praesentium, voluptate rerum
+              eius iusto ad autem aliquam quos dignissimos quibusdam dolorem
+              maiores animi minus cupiditate illo porro? Molestiae eos minima
+              dolores modi inventore nulla odit dolorum repellat quidem maiores
+              vel blanditiis et nesciunt eligendi porro voluptatum, nostrum
+              voluptates aperiam quis ipsum deleniti quisquam velit veritatis?
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="pic2 image-fluid" src="./pics/2.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sub-Section-WHY US -->
+    <section class="bg-white text-dark min-vh80">
+      <div class="container pb-5 pt-5">
+        <h5>WHY US</h5>
+        <h2 class="pb-3">Why Choose Our Restaurant</h2>
+        <div class="row bg-light text-dark">
+          <div class="col-md-4">
+            <div class="border border-5 p-5">
+              <span>01</span>
+              <h3>Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                odit eius mollitia quam in voluptatum magni doloremque,
+                explicabo id nobis?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="border border-5 p-5">
+              <span>02</span>
+              <h3>Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                odit eius mollitia quam in voluptatum magni doloremque,
+                explicabo id nobis?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="border border-5 p-5">
+              <span>03</span>
+              <h3>Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                odit eius mollitia quam in voluptatum magni doloremque,
+                explicabo id nobis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="bg-dark text-light min-vh-100 pt-5">
+      <div class="container">
+        <h5>menu</h5>
+        <h2>Check Our Tasty Menu</h2>
+
+        <ul class="pb-5">
+          <li>All</li>
+          <li>Starters</li>
+          <li>Salads</li>
+          <li>Specialty</li>
+        </ul>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f1.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Lobster Bisque
+                  <span
+                    >..................................................................$5.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f2.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Crab cake
+                  <span
+                    >..................................................................$7.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f3.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Tuscan Grilled
+                  <span
+                    >..................................................................$9.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f4.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Greek Salad
+                  <span
+                    >..................................................................$6.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f5.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Lobster Roll
+                  <span
+                    >..................................................................$4.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f6.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Bread Barrel
+                  <span
+                    >..................................................................$10.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f7.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Caesar Selections
+                  <span
+                    >..................................................................$7.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f8.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Mozzarella Stick
+                  <span
+                    >..................................................................$6.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-2">
+                <img class="f" src="./pics/f9.jpg" />
+              </div>
+              <div class="col-md-10">
+                <div class="price">
+                  Spinach Salad
+                  <span
+                    >..................................................................$5.95</span
+                  >
+                  <p>Lorem, ipsum dolor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Specials Section -->
+    <section id="specials" class="bg-light text-dark min-vh-80">
+      <div class="container pt-5 pb-5">
+        <h6>Specials</h6>
+        <h2>Check Our Specials</h2>
+        <div class="d-flex align-items-start pt-5">
+          <div
+            class="nav flex-column nav-pills me-3"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <button
+              class="nav-link active"
+              id="v-pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-home"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-home"
+              aria-selected="true"
+            >
+              Roti
+            </button>
+
+            <button
+              class="nav-link"
+              id="v-pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-profile"
+              aria-selected="false"
+            >
+              Butter Chicken
+            </button>
+
+            <button
+              class="nav-link"
+              id="v-pills-messages-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-messages"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-messages"
+              aria-selected="false"
+            >
+              chicken Salad
+            </button>
+
+            <button
+              class="nav-link"
+              id="v-pills-settings-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-settings"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-settings"
+              aria-selected="false"
+            >
+              Fish wraps
+            </button>
+
+            <button
+              class="nav-link"
+              id="v-pills-last-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-last"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-last"
+              aria-selected="false"
+            >
+              Prawns
+            </button>
+          </div>
+
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Heading 1</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique nam dolores accusantium beatae quis quas pariatur,
+                    necessitatibus officia ipsum tempora hic quibusdam omnis.
+                    Voluptatem doloremque asperiores et maiores illum ducimus.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="specials" src="./pics/f1.jpg" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Heading 2</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat ut dicta maxime, nemo laboriosam iure illum eos illo
+                    facilis tempore, natus iste deleniti? Enim, ea! Libero
+                    nostrum doloribus sapiente facilis?
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="specials" src="./pics/f2.jpg" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Heading 3</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Culpa velit vel pariatur, harum, expedita dolorum iste totam
+                    recusandae similique error libero necessitatibus vero
+                    incidunt illum ut, in ab nulla reiciendis.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="specials" src="./pics/f3.jpg" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Heading 4</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eum, ea exercitationem quos perferendis aperiam nisi
+                    impedit? Delectus incidunt, aliquid magni natus ad aut autem
+                    voluptas rerum! Fuga sint suscipit tempore!
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="specials" src="./pics/f4.jpg" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="v-pills-last"
+              role="tabpanel"
+              aria-labelledby="v-pills-last-tab"
+            >
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Heading 5</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eum, ea exercitationem quos perferendis aperiam nisi
+                    impedit? Delectus incidunt, aliquid magni natus ad aut autem
+                    voluptas rerum! Fuga sint suscipit tempore!
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img class="specials" src="./pics/f5.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Events Section -->
+    <section id="events" class="bg-dark text-light min-vh-100">
+      <div class="container">
+        <div class="pb-5 pt-5">
+          <h6>Events</h6>
+          <h2>Organize Your Events in our Restaurant</h2>
+        </div>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner pb-5">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./event-birthday.jpg" class="d-block w-100" />
+                </div>
+                <div class="col-md-6">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eum libero vel molestias suscipit eligendi explicabo eveniet
+                    corporis quo. Omnis sit quibusdam quos qui ut officia
+                    delectus. Omnis laborum dolor praesentium.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./event-private.jpg" class="d-block w-100" />
+                </div>
+                <div class="col-md-6">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sequi a consectetur quasi! Facilis nostrum commodi soluta quo
+                  nihil sed non veritatis. Consectetur exercitationem,
+                  architecto soluta facere dolorem veritatis laudantium
+                  quisquam.
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./event-custom (1).jpg" class="d-block w-100" />
+                </div>
+                <div class="col-md-6">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  ipsam eligendi animi a sunt pariatur in maxime, aliquid hic
+                  molestias magnam quam, neque culpa qui accusantium repudiandae
+                  quisquam, cum libero!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sub-section Book A Table -->
+    <section class="bg-dark text-light min-vh-100 pt-5">
+      <div class="container">
+        <h5>Reservation</h5>
+        <h2>Book a Table</h2>
+        <form action="https://formspree.io/f/{form_id}" method="post">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="p-2">
+                <input
+                  required
+                  name="name"
+                  id="name"
+                  type="text"
+                  placeholder="Your name"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input
+                  required
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="Your email"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input
+                  required
+                  name="phone"
+                  id="phone"
+                  type="text-number"
+                  placeholder="Your phone #"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="p-2">
+                <input
+                  required
+                  name="date"
+                  id="date"
+                  type="date"
+                  placeholder="Date"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input
+                  required
+                  name="time"
+                  id="time"
+                  type="time"
+                  placeholder="Time"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <input
+                  required
+                  name="number of people"
+                  id="people"
+                  type="number"
+                  placeholder="# of people"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2">
+            <textarea
+              class="form-control"
+              rows="5"
+              id="comment"
+              name="text"
+              placeholder="message"
+            ></textarea>
+          </div>
+
+          <div class="p-2 d-flex justify-content-center">
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Chefs Section -->
+    <section id="chefs" class="bg-light text-dark min-vh-100">
+      <div class="container">
+        <h5>Chefs</h5>
+        <h2>Our Proffesional Chefs</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="chefpic image-fluid" src="./pics/chef1.jpg" />
+          </div>
+          <div class="col-md-4">
+            <img class="chefpic image-fluid" src="./pics/chef2.jpg" />
+          </div>
+          <div class="col-md-4">
+            <img class="chefpic image-fluid" src="./pics/chef3.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-dark text-light">
+      <div class="container"></div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light text-dark">
+      <h5>contact</h5>
+      <h2>Contact Us</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.069675818386!2d18.4926986!3d-33.9856643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1651673290386!5m2!1sen!2sza"
+        width="100%"
+        height="300min-vh"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="container"></div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
